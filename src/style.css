@@ -1,0 +1,17 @@
+/* Custom styles & responsiveness if needed beyond Tailwind */
+
+.hero {
+  background-image: url('../images/banner.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
